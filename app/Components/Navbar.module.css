@@ -2,7 +2,7 @@
 
 .nav {
     background-color: #333;
-    padding: 1rem;
+    padding: 10%;
   }
   
   .navList {
@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-around;
     margin: 0;
-    padding: 0;
+    padding: 10px;
   }
   
   .navItem a {

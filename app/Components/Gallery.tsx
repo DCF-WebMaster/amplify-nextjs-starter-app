@@ -5,7 +5,10 @@ import styles from './Gallery.module.css';
 const images = [
   '/images/image1.jpg',
   '/images/image2.jpg',
-  '/images/image3.jpg', // Add paths to your images here
+  '/images/image3.jpg',
+  '/images/image4.jpg',
+  '/images/image5.jpg',
+  '/images/image6.jpg', // Add paths to your images here
 ];
 
 const Gallery: React.FC = () => {
