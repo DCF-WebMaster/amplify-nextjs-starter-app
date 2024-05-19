@@ -1,7 +1,7 @@
 // components/Navbar.tsx
 
 import Link from 'next/link';
-import styles from './Navbar.module.css';
+import styles from '../Components/Navbar.module.css';
 
 const Navbar: React.FC = () => {
   return (
@@ -11,16 +11,16 @@ const Navbar: React.FC = () => {
           <Link href="/">Home</Link>
         </li>
         <li className={styles.navItem}>
-          <Link href="/newsletter">Newsletter</Link>
+          <Link href="../Newsletter.tsx">Newsletter</Link>
         </li>
         <li className={styles.navItem}>
-          <Link href="/contact">Contact Us</Link>
+          <Link href="../Contact.tsx">Contact Us</Link>
         </li>
         <li className={styles.navItem}>
-          <Link href="/team">Meet the Team</Link>
+          <Link href="../Team">Meet the Team</Link>
         </li>
         <li className={styles.navItem}>
-          <Link href="/events">Upcoming Events</Link>
+          <Link href="../Events">Upcoming Events</Link>
         </li>
       </ul>
     </nav>
