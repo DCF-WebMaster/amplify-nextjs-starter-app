@@ -8,19 +8,19 @@ const Navbar: React.FC = () => {
     <nav className={styles.nav}>
       <ul className={styles.navList}>
         <li className={styles.navItem}>
-          <Link href="/">Home</Link>
+          <Link href="../page.tsx">Home</Link>
         </li>
         <li className={styles.navItem}>
-          <Link href="../Newsletter.tsx">Newsletter</Link>
+          <Link href="../Pages/Newsletter.tsx">Newsletter</Link>
         </li>
         <li className={styles.navItem}>
-          <Link href="../Contact.tsx">Contact Us</Link>
+          <Link href="../Pages/Contact.tsx">Contact Us</Link>
         </li>
         <li className={styles.navItem}>
-          <Link href="../Team">Meet the Team</Link>
+          <Link href="../Pages/Team">Meet the Team</Link>
         </li>
         <li className={styles.navItem}>
-          <Link href="../Events">Upcoming Events</Link>
+          <Link href="../Pages/Events">Upcoming Events</Link>
         </li>
       </ul>
     </nav>
