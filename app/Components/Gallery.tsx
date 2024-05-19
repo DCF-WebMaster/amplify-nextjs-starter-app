@@ -1,4 +1,4 @@
-// components/Gallery.js
+// components/Gallery.tsx
 
 import styles from './Gallery.module.css';
 
@@ -8,7 +8,7 @@ const images = [
   '/images/image3.jpg', // Add paths to your images here
 ];
 
-const Gallery = () => {
+const Gallery: React.FC = () => {
   return (
     <div className={styles.gallery}>
       {images.map((src, index) => (
